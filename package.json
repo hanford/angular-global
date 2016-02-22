@@ -1,0 +1,35 @@
+{
+  "name": "angular-global",
+  "version": "1.0.0",
+  "description": "Angular module that allows using all modules globally",
+  "main": "./src",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/angular-global.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanford/angular-global/issues"
+  },
+  "keywords": [
+    "angular",
+    "global",
+    "DI",
+    "angular DI"
+  ],
+  "author": "Jack Hanford <jackhanford@gmail.com> (http://www.jackhanford.com/)",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "~1.4.9",
+    "assert-semver-operator": "~1.0.1"
+  },
+  "scripts": {
+    "test": "standard && assert-operator ./ '~'"
+  },
+  "peerDependencies": {
+    "angular": ">=1.3 <2"
+  },
+  "files": [
+    "src/"
+  ]
+}
